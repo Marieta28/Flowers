@@ -69,6 +69,8 @@ body {
   border-bottom: 1px solid #4c4c4c;
 }
 .hero-title {
+  max-width: 692px;
+  margin: auto;
   font-size: 34px;
   margin-bottom: 34px;
   text-transform: uppercase;
@@ -76,6 +78,8 @@ body {
   font-family: "Gotham Pro Medium";
 }
 .hero-description {
+  max-width: 692px;
+  margin: auto;
   font-size: 18px;
   font-family: "Gotham Pro Light";
   text-transform: uppercase;
@@ -180,7 +184,7 @@ body {
   align-items: center;
   text-align: center;
 }
-.advantage {
+.advantages {
   text-align: center;
   padding-bottom: 100px;
   padding-top: 50px;
@@ -379,6 +383,90 @@ body {
   background: #fff;
   color: #1a1a1a;
 }
-.light {
-  max-width: 280px;
+.modale {
+  display: none;
+}
+.modale-title {
+  color: #292929;
+}
+.modale-button {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.modale-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+  .header-contacts {
+    text-align: center;
+  }
+  .header-phone,
+  .header-info,
+  .call-back {
+    text-align: center;
+  }
+  .hero {
+    margin-top: 50px;
+  }
+  .hero-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  .hero-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .colors {
+    max-width: 200px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .card-lable {
+    margin: 20px auto;
+    display: block;
+  }
+  .footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .footer-info {
+    text-align: left;
+  }
+}
+@media (max-width: 576px) {
+  .offer,
+  .footer-info,
+  .offer-title {
+    text-align: left;
+  }
+  .light {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  .section-title {
+    font-size: 24px;
+  }
+  .offer-link {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+  .offer-phone {
+    margin-top: 40px;
+    font-size: 22px;
+  }
 }
