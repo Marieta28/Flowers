@@ -53,6 +53,7 @@ body {
   margin-top: 7px;
   display: block;
   text-align: right;
+  font-family: "Gotham Pro Light";
 }
 .call-back {
   color: #ff3469;
@@ -60,6 +61,7 @@ body {
   display: block;
   margin-top: 16px;
   font-size: 16px;
+  font-family: "Gotham Pro";
 }
 .hero {
   text-align: center;
@@ -110,10 +112,15 @@ body {
   padding-right: 65px;
   margin-top: 36px;
   margin-bottom: 77px;
+  cursor: pointer;
+  border: none;
 }
 .reviews {
   padding-top: 100px;
   padding-bottom: 50px;
+}
+.reviews-slider {
+  margin-top: 98px;
 }
 .review-slide {
   padding-left: 60px;
@@ -167,7 +174,6 @@ body {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.3px;
-  margin-bottom: 98px;
   font-family: "Gotham Pro Medium";
 }
 .col {
@@ -195,4 +201,184 @@ body {
 .swiper-button-next,
 .swiper-button-prev {
   color: #f24841;
+}
+.goods {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section-description {
+  font-size: 18px;
+  text-align: center;
+  font-family: "Gotham Pro Light";
+}
+.card {
+  text-align: center;
+  border: 3px solid #ffffff;
+  padding: 33px 35px 30px 35px;
+  margin-top: 27px;
+}
+.card-title {
+  margin-top: 23px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Gotham Pro Medium";
+}
+.card-lable {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 7px;
+  margin-top: 20px;
+  font-family: "Gotham Pro Light";
+}
+.color-lable {
+  width: 20px;
+  height: 20px;
+  background: red;
+  cursor: pointer;
+}
+.color-input {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.color-lable.white {
+  background: #fff;
+}
+.color-lable.beige {
+  background: #f7b496;
+}
+.color-lable.pink {
+  background: #ed336e;
+}
+.color-lable.red {
+  background: red;
+}
+.color-lable.blue {
+  background: blue;
+}
+.counter-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter-input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  background: #292929;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.counter-button {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  background: #292929;
+  border: none;
+}
+.card-button {
+  font-size: 14px;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.flower {
+  width: 80px;
+}
+.more {
+  font-size: 14px;
+  color: #f24841;
+  display: block;
+  text-align: center;
+  margin-top: 39px;
+  padding: 10px;
+  font-family: "Gotham Pro Light";
+}
+.more:after {
+  display: inline-block;
+  width: 15px;
+  height: 5px;
+  content: "";
+  background: url(../img/arrow.svg) no-repeat;
+  margin-left: 14px;
+  vertical-align: middle;
+}
+.offer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #1a1a1a;
+  text-align: center;
+}
+.offer-link {
+  text-transform: uppercase;
+  display: block;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 65px;
+  font-family: "Gotham Pro";
+}
+.offer-lable {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 14px;
+  font-family: "Gotham Pro Light";
+}
+.offer-phone {
+  text-decoration: none;
+  color: #fff;
+  font-size: 36px;
+  font-family: "Gotham Pro";
+}
+
+.footer-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 33px;
+}
+.footer-menu-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Gotham Pro Light";
+  font-size: 18px;
+}
+.footer-menu-item {
+  margin-right: 30px;
+}
+.social {
+  font-size: 16px;
+  font-family: "Gotham Pro Light";
+}
+.footer-lable {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  font-family: "Gotham Pro Light";
+}
+.footer-info {
+  text-align: right;
+}
+.footer-phone {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 2px;
+  margin-bottom: 12px;
+  font-family: "Gotham Pro";
+}
+.footer-light {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #fff;
+  color: #1a1a1a;
+}
+.light {
+  max-width: 280px;
 }
